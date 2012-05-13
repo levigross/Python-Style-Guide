@@ -113,9 +113,13 @@ for letter in 'Hello World':
 ## Loops
 ### For loops
 You may be temped to write a bunch of list comprehensions instead of for loops. You must understand that list comprehensions replace certain types of  for loops but not all.
+
 **DO**
+
 `y = [x for x in 'Hello World' if x is not 'h']`
+
 **DON'T**
+
 `[mylist.sort() for mylist in list_of_lists]`
 
 
